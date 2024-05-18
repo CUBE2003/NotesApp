@@ -32,7 +32,7 @@ class AddEditNoteViewModel @Inject constructor(
 
     private val _noteContent = mutableStateOf(
         NoteTextFieldState(
-            hint = "Enter some content"
+            hint = "Enter some content..."
         )
     )
     val noteContent: State<NoteTextFieldState> = _noteContent
